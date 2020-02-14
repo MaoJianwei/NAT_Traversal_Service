@@ -25,3 +25,4 @@ hs_err_pid*
 nat-traversal-client/application.properties
 nat-traversal-server/application.properties
 target/
+.idea/
