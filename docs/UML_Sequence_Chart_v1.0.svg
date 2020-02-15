@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 UML_Sequence_Chart_v1.0.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="12.1281in" height="10.5586in"
+		viewBox="0 0 873.22 760.22" xml:space="preserve" color-interpolation-filters="sRGB" class="st18">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:prompt="" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#1e5054;stroke-linecap:round;stroke-linejoin:round;stroke-width:2}
+		.st2 {stroke:#1e5054;stroke-dasharray:7,5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st3 {fill:#102c2f;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st4 {font-size:1em}
+		.st5 {fill:#ffffff;stroke:#af1513;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st6 {marker-end:url(#mrkr4-76);stroke:#af1513;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st7 {fill:#af1513;fill-opacity:1;stroke:#af1513;stroke-opacity:1;stroke-width:0.23584905660377}
+		.st8 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st9 {fill:#610c0b;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st10 {marker-end:url(#mrkr3-111);stroke:#af1513;stroke-dasharray:7,5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st11 {font-size:0.666659em}
+		.st12 {marker-end:url(#mrkr4-219);stroke:#7030a0;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st13 {fill:#7030a0;fill-opacity:1;stroke:#7030a0;stroke-opacity:1;stroke-width:0.31645569620253}
+		.st14 {fill:#7030a0;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st15 {fill:#1e5054;fill-opacity:0;stroke:#1e5054;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st16 {fill:#ffffff;stroke:#1e5054;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st17 {fill:#1e5155;font-family:Calibri;font-size:1.00001em;font-weight:bold}
+		.st18 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-76" class="st7" v:arrowType="4" v:arrowSize="3" v:setback="8.48" refX="-8.48" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<g id="lend3">
+			<path d="M 2 1 L 0 0 L 2 -1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr3-111" class="st7" v:arrowType="3" v:arrowSize="3" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend3" transform="scale(-4.24,-4.24) "/>
+		</marker>
+		<marker id="mrkr4-219" class="st13" v:arrowType="4" v:arrowSize="3" v:setback="6.32" refX="-6.32" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.16,-3.16) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="group298-1" transform="translate(18.5,-42.9795)" v:mID="298" v:groupContext="group">
+			<title>工作表.298</title>
+			<g id="group88-2" transform="translate(12.5368,-620.01)" v:mID="88" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<title>Object lifeline</title>
+				<desc>Application Server</desc>
+				<g id="shape89-3" v:mID="89" v:groupContext="shape" transform="translate(32.3946,-10.3099)">
+					<title>工作表.89</title>
+					<rect x="0" y="734.708" width="51.0236" height="25.5118" class="st1"/>
+				</g>
+				<g id="shape90-5" v:mID="90" v:groupContext="shape" transform="translate(49.4025,-49.6749)">
+					<title>工作表.90</title>
+					<path d="M8.5 760.22 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+				</g>
+				<g id="shape91-7" v:mID="91" v:groupContext="shape" transform="translate(38.6043,644.99)">
+					<title>工作表.91</title>
+				</g>
+				<g id="shape92-9" v:mID="92" v:groupContext="shape" transform="translate(818.126,760.22) rotate(90)">
+					<title>工作表.92</title>
+					<path d="M0 760.22 L620.01 760.22" class="st2"/>
+				</g>
+				<g id="shape88-12" v:mID="88" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="57.9064" cy="737.154" width="115.82" height="46.1316"/>
+					<rect x="0" y="714.088" width="115.813" height="46.1316" class="st1"/>
+					<text x="12.07" y="740.75" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Application Server</text>				</g>
+			</g>
+			<g id="group113-15" transform="translate(200.35,-620.01)" v:mID="113" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<title>对象生命线.113</title>
+				<desc>NAT-Traversal-Client</desc>
+				<g id="shape114-16" v:mID="114" v:groupContext="shape" transform="translate(32.3946,-10.3099)">
+					<title>工作表.114</title>
+					<rect x="0" y="734.708" width="51.0236" height="25.5118" class="st1"/>
+				</g>
+				<g id="shape115-18" v:mID="115" v:groupContext="shape" transform="translate(49.4025,-49.6749)">
+					<title>工作表.115</title>
+					<path d="M8.5 760.22 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+				</g>
+				<g id="shape116-20" v:mID="116" v:groupContext="shape" transform="translate(38.6043,644.99)">
+					<title>工作表.116</title>
+				</g>
+				<g id="shape117-22" v:mID="117" v:groupContext="shape" transform="translate(818.126,760.22) rotate(90)">
+					<title>工作表.117</title>
+					<path d="M0 760.22 L620.01 760.22" class="st2"/>
+				</g>
+				<g id="shape113-25" v:mID="113" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="57.9064" cy="737.154" width="115.82" height="46.1316"/>
+					<rect x="0" y="714.088" width="115.813" height="46.1316" class="st1"/>
+					<text x="6.34" y="740.75" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>NAT-Traversal-Client</text>				</g>
+			</g>
+			<g id="group118-28" transform="translate(377.008,-620.01)" v:mID="118" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<title>对象生命线.118</title>
+				<desc>Gateway Router 10.0.0.1/8, 200.0.0.1</desc>
+				<g id="shape119-29" v:mID="119" v:groupContext="shape" transform="translate(32.3946,-10.3099)">
+					<title>工作表.119</title>
+					<rect x="0" y="734.708" width="51.0236" height="25.5118" class="st1"/>
+				</g>
+				<g id="shape120-31" v:mID="120" v:groupContext="shape" transform="translate(49.4025,-49.6749)">
+					<title>工作表.120</title>
+					<path d="M8.5 760.22 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+				</g>
+				<g id="shape121-33" v:mID="121" v:groupContext="shape" transform="translate(38.6043,644.99)">
+					<title>工作表.121</title>
+				</g>
+				<g id="shape122-35" v:mID="122" v:groupContext="shape" transform="translate(818.126,760.22) rotate(90)">
+					<title>工作表.122</title>
+					<path d="M0 760.22 L620.01 760.22" class="st2"/>
+				</g>
+				<g id="shape118-38" v:mID="118" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="57.9064" cy="737.154" width="115.82" height="46.1316"/>
+					<rect x="0" y="714.088" width="115.813" height="46.1316" class="st1"/>
+					<text x="17.33" y="733.55" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Gateway Router<v:newlineChar/><tspan
+								x="6.32" dy="1.2em" class="st4">10</tspan>.0.0.1/8, 200.0.0.1</text>				</g>
+			</g>
+			<g id="group246-42" transform="translate(553.706,-620.01)" v:mID="246" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<title>对象生命线.246</title>
+				<desc>NAT-Traversal-Server 220.0.0.1</desc>
+				<g id="shape247-43" v:mID="247" v:groupContext="shape" transform="translate(32.3946,-10.3099)">
+					<title>工作表.247</title>
+					<rect x="0" y="734.708" width="51.0236" height="25.5118" class="st1"/>
+				</g>
+				<g id="shape248-45" v:mID="248" v:groupContext="shape" transform="translate(49.4025,-49.6749)">
+					<title>工作表.248</title>
+					<path d="M8.5 760.22 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+				</g>
+				<g id="shape249-47" v:mID="249" v:groupContext="shape" transform="translate(38.6043,644.99)">
+					<title>工作表.249</title>
+				</g>
+				<g id="shape250-49" v:mID="250" v:groupContext="shape" transform="translate(818.126,760.22) rotate(90)">
+					<title>工作表.250</title>
+					<path d="M0 760.22 L620.01 760.22" class="st2"/>
+				</g>
+				<g id="shape246-52" v:mID="246" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="57.9064" cy="737.154" width="115.82" height="46.1316"/>
+					<rect x="0" y="714.088" width="115.813" height="46.1316" class="st1"/>
+					<text x="4.81" y="733.55" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>NAT-Traversal-Server<v:newlineChar/><tspan
+								x="34.85" dy="1.2em" class="st4">220</tspan>.0.0.1</text>				</g>
+			</g>
+			<g id="group251-56" transform="translate(711.901,-620.01)" v:mID="251" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="ShowActor" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="ShowDestruction" v:prompt="" v:val="VT0(0):5"/>
+				</v:userDefs>
+				<title>Object lifeline.251</title>
+				<desc>Application Client(s)</desc>
+				<g id="shape252-57" v:mID="252" v:groupContext="shape" transform="translate(32.3946,-10.3099)">
+					<title>工作表.252</title>
+					<rect x="0" y="734.708" width="51.0236" height="25.5118" class="st1"/>
+				</g>
+				<g id="shape253-59" v:mID="253" v:groupContext="shape" transform="translate(49.4025,-49.6749)">
+					<title>工作表.253</title>
+					<path d="M8.5 760.22 a0 0 0 1 1 0 0 a0 0 0 1 1 0 0 Z" class="st1"/>
+				</g>
+				<g id="shape254-61" v:mID="254" v:groupContext="shape" transform="translate(38.6043,644.99)">
+					<title>工作表.254</title>
+				</g>
+				<g id="shape255-63" v:mID="255" v:groupContext="shape" transform="translate(818.126,760.22) rotate(90)">
+					<title>工作表.255</title>
+					<path d="M0 760.22 L620.01 760.22" class="st2"/>
+				</g>
+				<g id="shape251-66" v:mID="251" v:groupContext="groupContent">
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="57.9064" cy="737.154" width="115.82" height="46.1316"/>
+					<rect x="0" y="714.088" width="115.813" height="46.1316" class="st1"/>
+					<text x="7.48" y="740.75" class="st3" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Application Client(s)</text>				</g>
+			</g>
+			<g id="shape256-69" v:mID="256" v:groupContext="shape" transform="translate(-497.712,253.595) rotate(-90)">
+				<title>激活.256</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="79.3701" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape257-71" v:mID="257" v:groupContext="shape" v:layerMember="0" transform="translate(255.422,-568.987)">
+				<title>自关联消息.43.257</title>
+				<desc>Start ServiceCheckTask maintain SSH tunnels</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="90.4053" cy="767.946" width="125.31" height="36.8038"/>
+				<path d="M7.09 760.22 L25.09 760.22 L25.09 777.23 L15.57 777.23" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="33.1117" y="753.546" width="114.587" height="28.8001" class="st8"/>
+				<text x="33.11" y="764.35" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Start ServiceCheckTask<v:newlineChar/><tspan
+							x="37.34" dy="1.2em" class="st4">maintain SSH tunnels</tspan></text>			</g>
+			<g id="shape258-80" v:mID="258" v:groupContext="shape" transform="translate(-685.524,352.808) rotate(-90)">
+				<title>激活.258</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="99.2126" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape259-82" v:mID="259" v:groupContext="shape" transform="translate(-497.712,338.635) rotate(-90)">
+				<title>激活.259</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="56.6929" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape260-84" v:mID="260" v:groupContext="shape" v:layerMember="0" transform="translate(74.6952,-491.034)">
+				<title>消息.41.260</title>
+				<desc>Register NAT demand &#60;internal port&#62;</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="92.5489" cy="746.687" width="119" height="36.8038"/>
+				<path d="M0 761.64 L170.85 772.44" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="38.4105" y="732.287" width="108.277" height="28.8001" class="st8"/>
+				<text x="38.41" y="743.09" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Register NAT demand<v:newlineChar/><tspan
+							x="54.98" dy="1.2em" class="st4">&#60;</tspan>internal port&#62;</text>			</g>
+			<g id="shape261-92" v:mID="261" v:groupContext="shape" v:layerMember="0" transform="translate(255.422,-534.971)">
+				<title>自关联消息.261</title>
+				<desc>Start RESTful API Server</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="93.2399" cy="770.781" width="129.27" height="22.4037"/>
+				<path d="M7.09 760.22 L25.09 760.22 L25.09 780.06 L15.57 780.06" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="33.9659" y="763.581" width="118.548" height="14.4001" class="st8"/>
+				<text x="33.97" y="774.38" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Start RESTful API Server</text>			</g>
+			<g id="shape262-99" v:mID="262" v:groupContext="shape" v:layerMember="0" transform="translate(255.422,-461.27)">
+				<title>自关联消息.262</title>
+				<desc>Store NAT demand</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="83.3187" cy="769.364" width="104.9" height="22.4037"/>
+				<path d="M7.09 760.22 L25.09 760.22 L25.09 777.23 L15.57 777.23" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="36.2293" y="762.164" width="94.1789" height="14.4001" class="st8"/>
+				<text x="36.23" y="772.96" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Store NAT demand</text>			</g>
+			<g id="shape264-106" v:mID="264" v:groupContext="shape" v:layerMember="0" transform="translate(254.004,-431.506)">
+				<title>返回消息.44.264</title>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 764.47 L-179.31 770.14" class="st10"/>
+			</g>
+			<g id="shape265-112" v:mID="265" v:groupContext="shape" transform="translate(-144.355,253.595) rotate(-90)">
+				<title>激活.265</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="79.3701" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape266-114" v:mID="266" v:groupContext="shape" v:layerMember="0" transform="translate(608.778,-568.987)">
+				<title>自关联消息.266</title>
+				<desc>Start TunnelCheckTask maintain tunnel status</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="89.679" cy="767.946" width="123.89" height="36.8038"/>
+				<path d="M7.09 760.22 L25.09 760.22 L25.09 777.23 L15.57 777.23" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="33.0943" y="753.546" width="113.17" height="28.8001" class="st8"/>
+				<text x="33.09" y="764.35" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Start TunnelCheckTask<v:newlineChar/><tspan
+							x="33.33" dy="1.2em" class="st4">maintain tunnel status</tspan></text>			</g>
+			<g id="shape267-122" v:mID="267" v:groupContext="shape" v:layerMember="0" transform="translate(608.778,-534.971)">
+				<title>自关联消息.267</title>
+				<desc>Start RESTful API Server</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="91.3798" cy="770.781" width="129.27" height="22.4037"/>
+				<path d="M7.09 760.22 L25.09 760.22 L25.09 780.06 L15.57 780.06" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="32.1058" y="763.581" width="118.548" height="14.4001" class="st8"/>
+				<text x="32.11" y="774.38" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Start RESTful API Server</text>			</g>
+			<g id="shape268-129" v:mID="268" v:groupContext="shape" transform="translate(-497.712,483.202) rotate(-90)">
+				<title>激活.268</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="130.394" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape269-131" v:mID="269" v:groupContext="shape" transform="translate(-144.355,466.194) rotate(-90)">
+				<title>激活.269</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="90.7087" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape270-133" v:mID="270" v:groupContext="shape" v:layerMember="0" transform="translate(262.508,-394.656)">
+				<title>消息.41.270</title>
+				<desc>Apply NAT resource &#60;internal port&#62;</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="172.426" cy="747.464" width="109.36" height="36.8038"/>
+				<path d="M0 764.47 L336.37 770" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="123.107" y="733.064" width="98.6377" height="28.8001" class="st8"/>
+				<text x="123.11" y="743.86" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Apply NAT resource<v:newlineChar/><tspan
+							x="134.85" dy="1.2em" class="st4">&#60;</tspan>internal port&#62;</text>			</g>
+			<g id="shape271-141" v:mID="271" v:groupContext="shape" v:layerMember="0" transform="translate(607.36,-303.947)">
+				<title>返回消息.44.271</title>
+				<desc>Return public NAT resource &#60;external port&#62;</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-171.392" cy="745.269" width="147.63" height="36.8038"/>
+				<path d="M0 764.47 L-344.85 770.14" class="st10"/>
+				<rect v:rectContext="textBkgnd" x="-239.845" y="730.869" width="136.906" height="28.8001" class="st8"/>
+				<text x="-239.84" y="741.67" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Return public NAT resource<v:newlineChar/><tspan
+							x="-210.05" dy="1.2em" class="st4">&#60;</tspan>external port&#62;</text>			</g>
+			<g id="shape272-149" v:mID="272" v:groupContext="shape" v:layerMember="0" transform="translate(608.778,-367.727)">
+				<title>自关联消息.43.272</title>
+				<desc>Allocate external port</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="94.7813" cy="769.647" width="119.56" height="22.4037"/>
+				<path d="M7.09 760.22 L25.09 760.22 L25.09 777.23 L15.57 777.23" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="40.3618" y="762.447" width="108.839" height="14.4001" class="st8"/>
+				<text x="40.36" y="773.25" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Allocate external port</text>			</g>
+			<g id="shape273-156" v:mID="273" v:groupContext="shape" v:layerMember="0" transform="translate(608.778,-333.711)">
+				<title>自关联消息.273</title>
+				<desc>Store NAT port mapping &#60;internal port, external port&#62;</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="101.301" cy="770.781" width="157.04" height="36.8038"/>
+				<path d="M7.09 760.22 L25.09 760.22 L25.09 780.06 L15.57 780.06" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="28.1429" y="756.381" width="146.316" height="28.8001" class="st8"/>
+				<text x="40.9" y="767.18" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Store NAT port mapping<v:newlineChar/><tspan
+							x="28.14" dy="1.2em" class="st4">&#60;</tspan>internal port, external port&#62;</text>			</g>
+			<g id="shape275-164" v:mID="275" v:groupContext="shape" transform="translate(-497.712,565.406) rotate(-90)">
+				<title>激活.275</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="70.8661" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape276-166" v:mID="276" v:groupContext="shape" v:layerMember="0" transform="translate(262.508,-241.585)">
+				<title>消息.41.276</title>
+				<desc>Set up SSH tunnel ssh -N -R &#60;external port&#62;:127.0.0.1:&#60;intern...</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="176.862" cy="769.364" width="327.42" height="32.0037"/>
+				<path d="M0 753.13 L336.37 753.13" class="st6"/>
+				<rect v:rectContext="textBkgnd" x="18.0613" y="757.364" width="317.602" height="23.9999" class="st8"/>
+				<text x="132.73" y="768.16" class="st9" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Set up SSH tunnel<v:newlineChar/><tspan
+							x="18.06" dy="1.35em" class="st11" v:langID="1033">ssh </tspan><tspan class="st11" v:langID="1033">-</tspan><tspan
+							class="st11" v:langID="1033">N </tspan><tspan class="st11" v:langID="1033">-</tspan><tspan class="st11"
+							v:langID="1033">R </tspan><tspan class="st11" v:langID="1033">&#60;</tspan><tspan class="st11"
+							v:langID="1033">external port</tspan><tspan class="st11" v:langID="1033">&#62;</tspan><tspan
+							class="st11" v:langID="1033">:</tspan><tspan class="st11" v:langID="1033">127</tspan><tspan
+							class="st11" v:langID="1033">.</tspan><tspan class="st11" v:langID="1033">0</tspan><tspan class="st11"
+							v:langID="1033">.</tspan><tspan class="st11" v:langID="1033">0</tspan><tspan class="st11"
+							v:langID="1033">.</tspan><tspan class="st11" v:langID="1033">1</tspan><tspan class="st11"
+							v:langID="1033">:</tspan><tspan class="st11" v:langID="1033">&#60;</tspan><tspan class="st11"
+							v:langID="1033">internal port</tspan><tspan class="st11" v:langID="1033">&#62; &#60;</tspan><tspan
+							class="st11" v:langID="1033">SSH username</tspan><tspan class="st11" v:langID="1033">, </tspan><tspan
+							class="st11" v:langID="1033">login with cert</tspan><tspan class="st11" v:langID="1033">&#62;</tspan><tspan
+							class="st11" v:langID="1033">:</tspan><tspan class="st11" v:langID="1033">&#60;</tspan><tspan
+							class="st11" v:langID="1033">220</tspan><tspan class="st11" v:langID="1033">.</tspan><tspan
+							class="st11" v:langID="1033">0</tspan><tspan class="st11" v:langID="1033">.</tspan><tspan class="st11"
+							v:langID="1033">0</tspan><tspan class="st11" v:langID="1033">.</tspan><tspan class="st11"
+							v:langID="1033">1</tspan><tspan class="st11" v:langID="1033">&#62;</tspan></text>			</g>
+			<g id="shape277-207" v:mID="277" v:groupContext="shape" transform="translate(-144.355,565.406) rotate(-90)">
+				<title>激活.277</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<rect x="0" y="751.716" width="70.8661" height="8.50394" class="st5"/>
+			</g>
+			<g id="shape280-209" v:mID="280" v:groupContext="shape" v:layerMember="0" transform="translate(607.36,-207.569)">
+				<title>返回消息.44.280</title>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 753.13 L-344.85 753.13" class="st10"/>
+			</g>
+			<g id="shape282-214" v:mID="282" v:groupContext="shape" v:layerMember="0" transform="translate(769.807,-128.199)">
+				<title>消息.41.282</title>
+				<desc>Connect to 220.0.0.1:&#60;external port&#62;</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-80.9886" cy="732.513" width="137.45" height="36.8038"/>
+				<path d="M0 753.13 L-148.72 753.13" class="st12"/>
+				<rect v:rectContext="textBkgnd" x="-144.355" y="718.113" width="126.733" height="28.8001" class="st8"/>
+				<text x="-108.1" y="728.91" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Connect to<v:newlineChar/><tspan
+							x="-144.35" dy="1.2em" class="st4">220</tspan>.0.0.1:&#60;external port&#62;</text>			</g>
+			<g id="shape283-223" v:mID="283" v:groupContext="shape" v:layerMember="0" transform="translate(611.612,-108.357)">
+				<title>消息.283</title>
+				<desc>SSH Tunnel transfer App Request to server</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-176.494" cy="735.348" width="163.76" height="36.8038"/>
+				<path d="M0 753.13 L-343.88 753.13" class="st12"/>
+				<rect v:rectContext="textBkgnd" x="-253.013" y="720.948" width="153.037" height="28.8001" class="st8"/>
+				<text x="-204.43" y="731.75" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>SSH Tunnel<v:newlineChar/><tspan
+							x="-253.01" dy="1.2em" class="st4">transfer App Request to server</tspan></text>			</g>
+			<g id="shape284-231" v:mID="284" v:groupContext="shape" v:layerMember="0" transform="translate(258.256,-105.522)">
+				<title>消息.284</title>
+				<desc>Convert connection to 127.0.0.1:&#60;internal port&#62;</desc>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="-93.8467" cy="751.222" width="135.29" height="36.8038"/>
+				<path d="M0 767.31 L-178.33 767.31" class="st12"/>
+				<rect v:rectContext="textBkgnd" x="-156.129" y="736.822" width="124.565" height="28.8001" class="st8"/>
+				<text x="-149.27" y="747.62" class="st14" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Convert connection to<v:newlineChar/><tspan
+							x="-156.13" dy="1.2em" class="st4">127</tspan>.0.0.1:&#60;internal port&#62;</text>			</g>
+			<g id="group288-239" v:mID="288" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>其他片段.288</title>
+				<g id="shape288-240" v:mID="288" v:groupContext="groupContent">
+					<rect x="0" y="581.092" width="836.22" height="179.128" class="st15"/>
+				</g>
+				<g id="shape289-242" v:mID="289" v:groupContext="shape" transform="translate(0,-142.324)">
+					<title>工作表.289</title>
+					<desc>Application Flow</desc>
+					<v:userDefs>
+						<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+						<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+						<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+						<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+						<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+						<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#1e5155)"/>
+						<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1e5155)"/>
+						<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#ffffff)"/>
+						<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1e5155)"/>
+					</v:userDefs>
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="48" cy="741.818" width="96" height="36.8038"/>
+					<path d="M0 760.22 L88.91 760.22 L96 753.13 L96 723.42 L0 723.42 L0 760.22 Z" class="st16"/>
+					<text x="4" y="738.22" class="st17" v:langID="2052"><v:paragraph/><v:tabList/>Application<v:newlineChar/><tspan
+								x="4" dy="1.2em" class="st4">Flow</tspan></text>				</g>
+			</g>
+			<g id="group291-246" transform="translate(5.11591E-13,-609.449)" v:mID="291" v:groupContext="group">
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<title>其他片段.291</title>
+				<g id="shape291-247" v:mID="291" v:groupContext="groupContent">
+					<rect x="0" y="670.928" width="330.236" height="89.2913" class="st15"/>
+				</g>
+				<g id="shape292-249" v:mID="292" v:groupContext="shape" transform="translate(0,-66.8876)">
+					<title>工作表.292</title>
+					<desc>Server in private network, 10.0.2.1/8</desc>
+					<v:userDefs>
+						<v:ud v:nameU="FoldSize" v:prompt="" v:val="VT0(0.098425196850394):24"/>
+						<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#96afcf)"/>
+						<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1f477d)"/>
+						<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#000000)"/>
+						<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#000000)"/>
+						<v:ud v:nameU="BackFillColor" v:prompt="" v:val="VT5(#1e5155)"/>
+						<v:ud v:nameU="BackLineColor" v:prompt="" v:val="VT5(#1e5155)"/>
+						<v:ud v:nameU="BackCharColor" v:prompt="" v:val="VT5(#ffffff)"/>
+						<v:ud v:nameU="DarkerColor" v:prompt="" v:val="VT5(#1e5155)"/>
+					</v:userDefs>
+					<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+					<v:textRect cx="97.3949" cy="749.018" width="194.79" height="22.4037"/>
+					<path d="M0 760.22 L187.7 760.22 L194.79 753.13 L194.79 737.82 L0 737.82 L0 760.22 Z" class="st16"/>
+					<text x="4" y="752.62" class="st17" v:langID="2052"><v:paragraph/><v:tabList/>Server in private network, 10.0.2.1/8</text>				</g>
+			</g>
+			<g id="shape295-252" v:mID="295" v:groupContext="shape" v:layerMember="0" transform="translate(258.256,-37.4905)">
+				<title>消息.295</title>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 753.13 L343.88 753.13" class="st12"/>
+			</g>
+			<g id="shape296-257" v:mID="296" v:groupContext="shape" v:layerMember="0" transform="translate(70.4433,-54.4983)">
+				<title>消息.296</title>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 753.13 L178.33 753.13" class="st12"/>
+			</g>
+			<g id="shape297-262" v:mID="297" v:groupContext="shape" v:layerMember="0" transform="translate(611.612,-17.648)">
+				<title>消息.297</title>
+				<v:userDefs>
+					<v:ud v:nameU="IsReturn" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="IsAsync" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="IsSelfMessage" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<path d="M0 753.13 L148.72 753.13" class="st12"/>
+			</g>
+		</g>
+	</g>
+</svg>
