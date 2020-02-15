@@ -234,10 +234,10 @@ public class NatServerCore implements NatServerService {
                     String[] entry = line.split(" ");
                     if (entry[0].contains("tcp")) {
                         String[] listenPart = entry[1].split(":");
-                        int port = Integer.valueOf(listenPart[listenPart.length - 1]);
+                        int port = Integer.parseUnsignedInt(listenPart[listenPart.length - 1]);
 
                         String[] pidPart = entry[2].split("/");
-                        int pid = Integer.valueOf(pidPart[0]);
+                        int pid = Integer.parseUnsignedInt(pidPart[0]);
 
                         onlineServices.put(port, pid);
                     }

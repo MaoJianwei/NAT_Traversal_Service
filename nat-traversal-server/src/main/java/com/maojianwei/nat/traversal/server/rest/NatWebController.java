@@ -6,7 +6,6 @@ import com.maojianwei.nat.traversal.lib.result.NatGetResult;
 import com.maojianwei.nat.traversal.lib.result.NatRemoveResult;
 import com.maojianwei.nat.traversal.lib.result.NatSummaryResult;
 import com.maojianwei.nat.traversal.server.api.NatServerService;
-import com.maojianwei.nat.traversal.server.core.NatServerCore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.GetMapping;

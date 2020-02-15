@@ -132,6 +132,10 @@ public class NatClientCore implements NatClientService {
                             // 2. start ssh, and save tunnel PID
                             NatAddResult addResult = new RestTemplate().getForObject(format("http://%s:%d/nat/addService/%s/%d",
                                     natServerAddr, natServerPort, s.getIdName(), s.getServicePort()), NatAddResult.class);
+
+                            if (addResult == null)
+                                return;
+
                             if (addResult.getErrCode() == ADD_OK) {
                                 s.setPublicPort(addResult.getPublicPort());
                                 startSshTunnel(s);
@@ -150,6 +154,10 @@ public class NatClientCore implements NatClientService {
                     invalidServices.forEach(s -> {
                         NatRemoveResult removeResult = new RestTemplate().getForObject(format("http://%s:%d/nat/removeService/%s/%d",
                                 natServerAddr, natServerPort, s.getIdName(), s.getPublicPort()), NatRemoveResult.class);
+
+                        if (removeResult == null)
+                            return;
+
                         if (!removeResult.isSuccess()) {
                             logger.warn("Fail to remove service, {}, {}", s.getIdName(), removeResult.getErrCode());
                         }
