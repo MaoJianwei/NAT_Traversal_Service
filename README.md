@@ -24,7 +24,9 @@ https://github.com/MaoJianwei/NAT_Traversal_Service/releases
 
 2. modify **application.properties** on your demand.
 
-3. run "**java -jar nat-traversal-client-1.0.jar / nat-traversal-server-1.0.jar**"
+3. **cd \<directory-of-binary-jar\>**, make sure you can see **application.properties** and **nat-traversal-server/client-1.0.jar** by **ls** command.
+  
+4. run "**java -jar nat-traversal-client-1.0.jar / nat-traversal-server-1.0.jar**"
 
 >* nat-traversal-server use **[WeChat_Notify_Module](https://github.com/MaoJianwei/WeChat_Notify_Module)** to enable pushing notifications/messages via [WeChat](https://www.wechat.com/en/). If you don't need this feature, remove all **mao.wechat.notify.\*** configs from **application.properties**.
 
