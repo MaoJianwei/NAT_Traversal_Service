@@ -29,8 +29,15 @@ https://github.com/MaoJianwei/NAT_Traversal_Service/releases
 4. run "**java -jar nat-traversal-client-1.0.jar / nat-traversal-server-1.0.jar**"
 
 >* nat-traversal-server use my **[WeChat_Notify_Module](https://github.com/MaoJianwei/WeChat_Notify_Module)** to enable pushing notifications/messages via [WeChat](https://www.wechat.com/en/)/[微信](https://weixin.qq.com/). If you don't need this feature, please remove all **mao.wechat.notify.\*** configs from **application.properties**.
+>* If you want to quickly run them and have a look at web dashboard, please just leave **server.port** and **mao.nat.server.addr** in the application.properties
 
-.
+### Web Dashboard
+
+NAT-Traversal Server: http://\<client-ip\>:\<server.port-in-properties-files\>/nat
+
+NAT-Traversal Client: http://\<server-ip\>:\<server.port-in-properties-files\>/nat
+
+![demo](https://raw.githubusercontent.com/MaoJianwei/NAT_Traversal_Service/master/docs/demo.png)
 
 ## UML Sequence chart
 ![UML_Sequence_Chart_v1.0](https://raw.githubusercontent.com/MaoJianwei/NAT_Traversal_Service/master/docs/UML_Sequence_Chart_v1.0.png)
